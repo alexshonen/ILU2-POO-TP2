@@ -53,7 +53,7 @@ public class Scenario {
 		BoundaryLibererEtal boundaryLibererEtal = new BoundaryLibererEtal(
 				controlLibererEtal);
 		BoundaryAcheterProduit boundaryAcheterProduit = new BoundaryAcheterProduit(
-				controlAcheterProduit);
+				controlAcheterProduit, controlVerifierIdentite);
 		BoundaryAfficherMarche boundaryAfficherMarche = new BoundaryAfficherMarche(
 				controlAfficherMarche);
 		BoundaryLeVillage boundaryLeVillage = new BoundaryLeVillage(
